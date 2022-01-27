@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'http://exchange.draugrswap.finance/',
+        href: 'http://exchange.vikingswap.finance/',
       },
       {
         label: 'Liquidity',
-        href: 'http://exchange.draugrswap.finance/#/pool',
+        href: 'http://exchange.vikingswap.finance/#/pool',
       },
     ],
   },
@@ -36,15 +36,15 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/draugr-token-address',
+        href: 'https://pancakeswap.info/token/0x896eDE222D3f7f3414e136a2791BDB08AAa25Ce0',
       },
       {
         label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/draugr-swap/',
+        href: 'https://coinmarketcap.com/currencies/viking-swap/',
       },
       {
         label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/draugr-swap',
+        href: 'https://www.coingecko.com/en/coins/viking-swap',
       },
     ],
   },
@@ -54,22 +54,22 @@ const config: MenuEntry[] = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/Draugr-Swap/",
+        href: "https://github.com/VikingDefi/",
       },
       {
         label: "Docs",
-        href: "https://draugrswap.gitbook.io/draugr-swap/",
+        href: "https://vikingswap.gitbook.io/viking-swap/",
       },
       {
         label: "Blog",
-        href: "https://draugr-swap.medium.com/",
+        href: "https://viking-swap.medium.com/",
       },
     ],
   },
   {
-    label: 'Audit by *****',
+    label: 'Audit by Hacken',
     icon: 'HelmetIcon',
-    href: 'https://www.draugrswap.finance/files/audit.pdf',
+    href: 'https://www.vikingswap.finance/files/vikingHackenAudit.pdf',
   },
 ]
 
