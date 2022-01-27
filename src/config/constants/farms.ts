@@ -5,15 +5,15 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'DRAUGR-BUSD LP',
+    lpSymbol: 'VIKING-BUSD LP',
     lpAddresses: {
       97: '',
       56: '0x9b989a7b8963f4b08ec094710e2966fb3c7f6c43',
     },
-    tokenSymbol: 'DRAUGR',
+    tokenSymbol: 'VIKING',
     tokenAddresses: {
       97: '',
-      56: 'draugr-token-address',
+      56: '0x896eDE222D3f7f3414e136a2791BDB08AAa25Ce0',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -21,15 +21,15 @@ const farms: FarmConfig[] = [
   {
     pid: 1,
     risk: 5,
-    lpSymbol: 'DRAUGR-BNB LP',
+    lpSymbol: 'VIKING-BNB LP',
     lpAddresses: {
       97: '',
       56: '0xc79173e5f6501d7c1ab2f4e7544b13fc6562ce6a',
     },
-    tokenSymbol: 'DRAUGR',
+    tokenSymbol: 'VIKING',
     tokenAddresses: {
       97: '',
-      56: 'draugr-token-address',
+      56: '0x896eDE222D3f7f3414e136a2791BDB08AAa25Ce0',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
@@ -182,15 +182,15 @@ const farms: FarmConfig[] = [
     pid: 11,
     risk: 5,
     isTokenOnly: true,
-    lpSymbol: 'DRAUGR',
+    lpSymbol: 'VIKING',
     lpAddresses: {
       97: '',
-      56: '0x9b989a7b8963f4b08ec094710e2966fb3c7f6c43', // DRAUGR-BUSD LP
+      56: '0x9b989a7b8963f4b08ec094710e2966fb3c7f6c43', // VIKING-BUSD LP
     },
-    tokenSymbol: 'DRAUGR',
+    tokenSymbol: 'VIKING',
     tokenAddresses: {
       97: '',
-      56: 'draugr-token-address',
+      56: '0x896eDE222D3f7f3414e136a2791BDB08AAa25Ce0',
     },
     quoteTokenSymbol: QuoteToken.BUSD,
     quoteTokenAdresses: contracts.busd,
@@ -202,7 +202,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'BUSD',
     lpAddresses: {
       97: '',
-      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // DRAUGR-BUSD LP (BUSD-BUSD will ignore)
+      56: '0x19e7cbecdd23a16dfa5573df54d98f7caae03019', // VIKING-BUSD LP (BUSD-BUSD will ignore)
     },
     tokenSymbol: 'BUSD',
     tokenAddresses: {

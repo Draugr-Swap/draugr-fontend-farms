@@ -1,6 +1,6 @@
 export default {
   cake: {
-    56: 'draugr-token-address',
+    56: '0x896eDE222D3f7f3414e136a2791BDB08AAa25Ce0',
     97: '',
   },
   masterChef: {
