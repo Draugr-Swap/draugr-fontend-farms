@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react'
-import { useWallet } from '@binance-chain/bsc-use-wallet'
+import { useWallet } from 'use-wallet'
 import multicall from 'utils/multicall'
 import { getMasterChefAddress } from 'utils/addressHelpers'
 import masterChefABI from 'config/abi/masterchef.json'
@@ -8,7 +8,7 @@ import useRefresh from './useRefresh'
 
 const useAllEarnings = () => {
   const [balances, setBalance] = useState([])
-  const { account }: { account: string } = useWallet()
+  const { account } = useWallet()
   const { fastRefresh } = useRefresh()
 
   useEffect(() => {
