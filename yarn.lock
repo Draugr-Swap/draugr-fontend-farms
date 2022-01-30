@@ -1835,9 +1835,9 @@
     eslint-plugin-react "^7.21.5"
     eslint-plugin-react-hooks "^4.0.0"
 
-"@pancakeswap-libs/uikit@VikingDefi/viking-uikit":
+"@pancakeswap-libs/uikit@Draugr-Swap/draugr-uikit":
   version "0.10.2"
-  resolved "https://codeload.github.com/VikingDefi/viking-uikit/tar.gz/8c0fa92dbdcf8f7428007fa7ecd60c84e3d528f4"
+  resolved "https://codeload.github.com/Draugr-Swap/draugr-uikit/tar.gz/6adb9eae1df1e2cd584a9a4687ecc8d773183902"
   dependencies:
     "@types/lodash" "^4.14.162"
     "@types/styled-system" "^5.1.10"

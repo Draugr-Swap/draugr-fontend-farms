@@ -12,11 +12,11 @@ const config: MenuEntry[] = [
     items: [
       {
         label: 'Exchange',
-        href: 'http://exchange.vikingswap.finance/',
+        href: 'http://exchange.draugrswap.finance/',
       },
       {
         label: 'Liquidity',
-        href: 'http://exchange.vikingswap.finance/#/pool',
+        href: 'http://exchange.draugrswap.finance/#/pool',
       },
     ],
   },
@@ -40,11 +40,11 @@ const config: MenuEntry[] = [
       },
       {
         label: 'CoinMarketCap',
-        href: 'https://coinmarketcap.com/currencies/viking-swap/',
+        href: 'https://coinmarketcap.com/currencies/draugr-swap/',
       },
       {
         label: 'CoinGecko',
-        href: 'https://www.coingecko.com/en/coins/viking-swap',
+        href: 'https://www.coingecko.com/en/coins/draugr-swap',
       },
     ],
   },
@@ -54,22 +54,22 @@ const config: MenuEntry[] = [
     items: [
       {
         label: "Github",
-        href: "https://github.com/VikingDefi/",
+        href: "https://github.com/Draugr-Swap/",
       },
       {
         label: "Docs",
-        href: "https://vikingswap.gitbook.io/viking-swap/",
+        href: "https://draugrswap.gitbook.io/draugr-swap/",
       },
       {
         label: "Blog",
-        href: "https://viking-swap.medium.com/",
+        href: "https://draugr-swap.medium.com/",
       },
     ],
   },
   {
     label: 'Audit by Hacken',
     icon: 'HelmetIcon',
-    href: 'https://www.vikingswap.finance/files/vikingHackenAudit.pdf',
+    href: 'https://www.draugrswap.finance/files/draugrHackenAudit.pdf',
   },
 ]
 

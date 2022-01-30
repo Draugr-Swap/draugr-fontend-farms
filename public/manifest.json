@@ -1,7 +1,7 @@
 {
-  "short_name": "VikingSwap",
-  "name": "VikingSwap",
-  "description": "Farm VIKING with VikingSwap LP Tokens",
+  "short_name": "DraugrSwap",
+  "name": "DraugrSwap",
+  "description": "Farm DRAUGR with DraugrSwap LP Tokens",
   "icons": [
     {
       "src": "favicon.ico",

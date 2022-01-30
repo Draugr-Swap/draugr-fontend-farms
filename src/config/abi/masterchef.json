@@ -2,8 +2,8 @@
   {
     "inputs": [
       {
-        "internalType": "contract VikingToken",
-        "name": "_viking",
+        "internalType": "contract DraugrToken",
+        "name": "_draugr",
         "type": "address"
       },
       {
@@ -18,7 +18,7 @@
       },
       {
         "internalType": "uint256",
-        "name": "_vikingPerBlock",
+        "name": "_draugrPerBlock",
         "type": "uint256"
       },
       {
@@ -300,10 +300,10 @@
   },
   {
     "inputs": [],
-    "name": "viking",
+    "name": "draugr",
     "outputs": [
       {
-        "internalType": "contract VikingToken",
+        "internalType": "contract DraugrToken",
         "name": "",
         "type": "address"
       }
@@ -314,7 +314,7 @@
   },
   {
     "inputs": [],
-    "name": "vikingPerBlock",
+    "name": "draugrPerBlock",
     "outputs": [
       {
         "internalType": "uint256",
@@ -545,7 +545,7 @@
     "inputs": [
       {
         "internalType": "uint256",
-        "name": "_vikingPerBlock",
+        "name": "_draugrPerBlock",
         "type": "uint256"
       }
     ],
