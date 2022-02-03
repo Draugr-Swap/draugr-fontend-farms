@@ -20,12 +20,11 @@ export interface Ifo {
 }
 
 export enum QuoteToken {
-  'BNB' = 'BNB',
-  'CAKE' = 'CAKE',
-  'SYRUP' = 'SYRUP',
-  'BUSD' = 'BUSD',
-  'TWT' = 'TWT',
-  'UST' = 'UST',
+  'FTM' = 'FTM',
+  'DRAUGR' = 'DRAUGR',
+  'USDC' = 'USDC',
+  'ETH' = 'ETH',
+  'SYRUP' = 'SYRUP'
 }
 
 export enum PoolCategory {
