@@ -1,5 +1,5 @@
 import React, { useContext } from 'react'
-import { useWallet } from 'use-wallet'
+import { useWallet } from 'draugr-use-wallet'
 import { allLanguages } from 'config/localisation/languageCodes'
 import { LanguageContext } from 'contexts/Localisation/languageContext'
 import useTheme from 'hooks/useTheme'

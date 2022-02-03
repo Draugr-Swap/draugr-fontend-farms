@@ -5,10 +5,10 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'DRAUGR-BUSD LP',
+    lpSymbol: 'DRAUGR-USDC LP',
     lpAddresses: {
       4002: '',
-      250: '0x9b989a7b8963f4b08ec094710e2966fb3c7f6c43',
+      250: '',
     },
     tokenSymbol: 'DRAUGR',
     tokenAddresses: {

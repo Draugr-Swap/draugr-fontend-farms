@@ -1,5 +1,5 @@
 import { useCallback, useState, useEffect } from 'react'
-import { useWallet } from 'use-wallet'
+import { useWallet } from 'draugr-use-wallet'
 import { useLottery, useLotteryTicket } from 'hooks/useContract'
 import { multiClaim, getMax, multiBuy } from '../utils/lotteryUtils'
 

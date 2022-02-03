@@ -1,7 +1,6 @@
 import React from 'react'
 import { ModalProvider } from '@pancakeswap-libs/uikit'
-// import bsc, { UseWalletProvider } from 'use-wallet'
-import * as ftm from 'use-wallet'
+import * as ftm from 'draugr-use-wallet'
 import { Provider } from 'react-redux'
 import getRpcUrl from 'utils/getRpcUrl'
 import { LanguageContextProvider } from 'contexts/Localisation/languageContext'
