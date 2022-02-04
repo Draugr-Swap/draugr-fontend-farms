@@ -8,8 +8,12 @@ declare module 'styled-components' {
 }
 
 const GlobalStyle = createGlobalStyle`
+  @font-face {
+    font-family: Norse;
+    src: url(/fonts/Norse.otf);
+  }
   * {
-    font-family: 'Kanit', sans-serif;
+    font-family: Norse;
   }
   body {
     background-color: ${({ theme }) => theme.colors.background};
