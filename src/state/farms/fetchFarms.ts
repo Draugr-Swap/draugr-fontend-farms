@@ -11,10 +11,7 @@ const CHAIN_ID = process.env.REACT_APP_CHAIN_ID
 const fetchFarms = async () => {
   const data = await Promise.all(
     farmsConfig.map(async (farmConfig) => {
-      console.log(farmConfig)
       const lpAdress = farmConfig.lpAddresses[CHAIN_ID]
-      console.log(CHAIN_ID);
-      console.log(lpAdress);
       const calls = [
         // Balance of token in the LP contract
         {
@@ -59,7 +56,6 @@ const fetchFarms = async () => {
         tokenDecimals,
         quoteTokenDecimals
       ] = await multicall(erc20, calls)
-
       let tokenAmount;
       let lpTotalInQuoteToken;
       let tokenPriceVsQuote;
@@ -93,7 +89,6 @@ const fetchFarms = async () => {
           tokenPriceVsQuote = new BigNumber(quoteTokenBlanceLP).div(new BigNumber(tokenBalanceLP));
         }
       }
-
       const [info, totalAllocPoint, draugrPerBlock] = await multicall(masterchefABI, [
         {
           address: getMasterChefAddress(),
@@ -112,11 +107,9 @@ const fetchFarms = async () => {
 
       const allocPoint = new BigNumber(info.allocPoint._hex)
       const poolWeight = allocPoint.div(new BigNumber(totalAllocPoint))
-
       return {
         ...farmConfig,
         tokenAmount: tokenAmount.toJSON(),
-        // quoteTokenAmount: quoteTokenAmount,
         lpTotalInQuoteToken: lpTotalInQuoteToken.toJSON(),
         tokenPriceVsQuote: tokenPriceVsQuote.toJSON(),
         poolWeight: poolWeight.toNumber(),

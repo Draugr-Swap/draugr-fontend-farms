@@ -185,7 +185,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'DRAUGR-USDC LP',
     lpAddresses: {
       4002: '',
-      250: '',
+      250: '0x7d4b803319c500b785cb7e5987c0bd95924f3df4',
     },
     tokenSymbol: 'DRAUGR',
     tokenAddresses: {
@@ -202,7 +202,7 @@ const farms: FarmConfig[] = [
     lpSymbol: 'DRAUGR-FTM LP',
     lpAddresses: {
       4002: '',
-      250: '',
+      250: '0xe1273b8639ff3921c33985a60911b3581d148c8a',
     },
     tokenSymbol: 'DRAUGR',
     tokenAddresses: {
