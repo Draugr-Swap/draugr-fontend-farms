@@ -11,7 +11,10 @@ const CHAIN_ID = process.env.REACT_APP_CHAIN_ID
 const fetchFarms = async () => {
   const data = await Promise.all(
     farmsConfig.map(async (farmConfig) => {
+      console.log(farmConfig)
       const lpAdress = farmConfig.lpAddresses[CHAIN_ID]
+      console.log(CHAIN_ID);
+      console.log(lpAdress);
       const calls = [
         // Balance of token in the LP contract
         {
