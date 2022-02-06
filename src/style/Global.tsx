@@ -14,6 +14,7 @@ const GlobalStyle = createGlobalStyle`
   }
   * {
     font-family: Norse;
+    color: white !important;
   }
   body {
     background-color: ${({ theme }) => theme.colors.background};

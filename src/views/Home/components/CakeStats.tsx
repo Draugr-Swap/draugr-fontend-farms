@@ -12,6 +12,9 @@ import { useFarms, usePriceCakeBusd } from '../../../state/hooks'
 const StyledCakeStats = styled(Card)`
   margin-left: auto;
   margin-right: auto;
+  background: #4D4F96;
+  box-shadow: 0px 2px 12px rgba(25, 19, 38, 0.1);
+  border-radius: 32px;
 `
 
 const Row = styled.div`

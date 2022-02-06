@@ -16,10 +16,12 @@ import useTokenBalance from '../../../hooks/useTokenBalance'
 import { getBalanceNumber } from '../../../utils/formatBalance'
 
 const StyledFarmStakingCard = styled(Card)`
-  background-image: url('/images/egg/2a.png');
   background-repeat: no-repeat;
   background-position: top right;
   min-height: 376px;
+  background: url('/images/egg/2a.png'), #4D4F96;
+  box-shadow: 0px 2px 12px rgba(25, 19, 38, 0.1);
+  border-radius: 32px;
 `
 
 const Block = styled.div`
