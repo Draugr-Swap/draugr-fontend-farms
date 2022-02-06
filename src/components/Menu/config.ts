@@ -21,12 +21,12 @@ const config: MenuEntry[] = [
     ],
   },
   {
-    label: 'Farms',
+    label: 'Raids',
     icon: 'FarmIcon',
     href: '/farms',
   },
   {
-    label: 'Armory',
+    label: 'Forge',
     icon: 'PoolIcon',
     href: '/nests',
   },
@@ -65,11 +65,6 @@ const config: MenuEntry[] = [
         href: "https://draugr-swap.medium.com/",
       },
     ],
-  },
-  {
-    label: 'Audit by Hacken',
-    icon: 'HelmetIcon',
-    href: 'https://www.draugrswap.finance/files/draugrHackenAudit.pdf',
   },
 ]
 
