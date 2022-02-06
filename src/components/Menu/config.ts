@@ -35,8 +35,8 @@ const config: MenuEntry[] = [
     icon: 'InfoIcon',
     items: [
       {
-        label: 'PancakeSwap',
-        href: 'https://pancakeswap.info/token/0x896eDE222D3f7f3414e136a2791BDB08AAa25Ce0',
+        label: 'Fantom Scan',
+        href: 'https://ftmscan.com/token/0x7D572502Bd99f8830F32F2F4CF0fC8767282A992',
       },
       {
         label: 'CoinMarketCap',
