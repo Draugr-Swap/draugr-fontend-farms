@@ -15,7 +15,7 @@ const Page = styled(Container)`
     padding-top: 32px;
     padding-bottom: 32px;
   }
-  background: url(/images/shutterstock_1576780438.jpg);
+  background-image: url(/images/shutterstock.jpg);
 `
 
 export default Page
