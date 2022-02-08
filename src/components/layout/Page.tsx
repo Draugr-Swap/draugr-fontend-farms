@@ -5,7 +5,7 @@ const Page = styled(Container)`
   min-height: calc(100vh - 64px);
   padding-top: 16px;
   padding-bottom: 16px;
-
+  background-image: url('/images/egg/shutterstock.jpg');
   ${({ theme }) => theme.mediaQueries.sm} {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -15,7 +15,6 @@ const Page = styled(Container)`
     padding-top: 32px;
     padding-bottom: 32px;
   }
-  background-image: url(/images/egg/shutterstock.jpg);
 `
 
 export default Page
