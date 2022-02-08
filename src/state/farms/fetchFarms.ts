@@ -89,6 +89,8 @@ const fetchFarms = async () => {
           tokenPriceVsQuote = new BigNumber(quoteTokenBlanceLP).div(new BigNumber(tokenBalanceLP));
         }
       }
+      console.log("Token PRice VS Quote : ", tokenPriceVsQuote);
+      console.log("lpTotalInQuoteToken : ", lpTotalInQuoteToken);
       const [info, totalAllocPoint, draugrPerBlock] = await multicall(masterchefABI, [
         {
           address: getMasterChefAddress(),
@@ -104,7 +106,7 @@ const fetchFarms = async () => {
           name: 'draugrPerBlock',
         },
       ])
-
+      console.log(info, totalAllocPoint, draugrPerBlock);
       const allocPoint = new BigNumber(info.allocPoint._hex)
       const poolWeight = allocPoint.div(new BigNumber(totalAllocPoint))
       return {
