@@ -10,7 +10,6 @@ const StyledTotalValueLockedCard = styled(Card)`
   align-items: center;
   display: flex;
   flex: 1;
-  background: #4D4F96;
   box-shadow: 0px 2px 12px rgba(25, 19, 38, 0.1);
   border-radius: 32px;
 `
