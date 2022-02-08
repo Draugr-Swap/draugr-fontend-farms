@@ -23,6 +23,7 @@ const GlobalStyle = createGlobalStyle`
       height: auto;
       max-width: 100%;
     }
+    background-image: url('/images/egg/shutterstock.png');
   }
 `
 
