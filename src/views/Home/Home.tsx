@@ -21,6 +21,7 @@ const Hero = styled.div`
   margin-bottom: 32px;
   padding-top: 116px;
   text-align: center;
+  background-color: rgba(77, 79, 150, 0.5);
 
   ${({ theme }) => theme.mediaQueries.lg} {
     background-image: url('/images/egg/2.png'), url('/images/egg/2.png');
@@ -28,6 +29,7 @@ const Hero = styled.div`
     background-position: left center, right center;
     height: 165px;
     padding-top: 0;
+    background-color: rgba(77, 79, 150, 0.5);
   }
 `
 
