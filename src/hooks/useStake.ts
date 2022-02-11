@@ -27,7 +27,7 @@ export const useSousStake = (sousId, isUsingBnb = false) => {
   const { account } = useWallet()
   const masterChefContract = useMasterchef()
   const sousChefContract = useSousChef(sousId)
-
+  console.log( "SousID SousID SousID SousID", sousId);
   const handleStake = useCallback(
     async (amount: string) => {
       if (sousId === 0) {
