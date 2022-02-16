@@ -35,6 +35,16 @@ const StyledLinkExternal = styled(LinkExternal)`
   }
 `
 
+const TextScan = styled.div`
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: #52FF00 !important;
+`
+
 const DetailsSection: React.FC<ExpandableSectionProps> = ({
   isTokenOnly,
   bscScanAddress,
@@ -51,7 +61,7 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
   return (
     <Wrapper>
       <Flex justifyContent="space-between">
-        <Text>{TranslateString(316, 'Stake')}:</Text>
+        <Text fontSize='15px'>{TranslateString(316, 'Stake')}:</Text>
         <StyledLinkExternal href={
           isTokenOnly ?
             `https://exchange.draugrswap.finance/#/swap/${tokenAddresses[process.env.REACT_APP_CHAIN_ID]}`
@@ -63,13 +73,13 @@ const DetailsSection: React.FC<ExpandableSectionProps> = ({
       </Flex>
       {!removed && (
         <Flex justifyContent="space-between">
-          <Text>{TranslateString(23, 'Total Liquidity')}:</Text>
-          <Text>{totalValueFormated}</Text>
+          <Text fontSize='15px'>{TranslateString(23, 'Total Liquidity')}:</Text>
+          <Text fontSize='15px'>{totalValueFormated}</Text>
         </Flex>
       )}
       <Flex justifyContent="flex-start">
         <Link external href={bscScanAddress}>
-          <Text bold color="success">{TranslateString(356, 'View on FtmScan')}</Text>
+          <TextScan>{TranslateString(356, 'View on FtmScan')}</TextScan>
         </Link>
       </Flex>
     </Wrapper>
