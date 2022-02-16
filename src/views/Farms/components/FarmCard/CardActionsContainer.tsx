@@ -24,7 +24,7 @@ const Text = styled.div`
   text-align: center;
   text-transform: uppercase;
   color: #52FF00 !important;
-  padding-left: 2px;
+  padding-right: 2px;
 `
 
 const TextChild = styled.div`
