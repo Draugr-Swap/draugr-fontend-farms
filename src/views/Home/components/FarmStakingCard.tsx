@@ -34,6 +34,8 @@ const CardImage = styled.img`
 const Label = styled.div`
   color: ${({ theme }) => theme.colors.textSubtle};
   font-size: 14px;
+  font-weight: bold;
+  line-height: 14px;
 `
 
 const Actions = styled.div`
