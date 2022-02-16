@@ -67,7 +67,7 @@ const CardActions: React.FC<FarmCardActionsProps> = ({ farm, ethereum, account }
   return (
     <Action>
       <Flex>
-        <Text bold textTransform="uppercase" color="secondary" fontSize="12px" pr="3px">
+        <Text bold textTransform="uppercase" color="success" fontSize="12px" pr="3px">
           DRAUGR
         </Text>
         <Text bold textTransform="uppercase" color="textSubtle" fontSize="12px">
@@ -76,7 +76,7 @@ const CardActions: React.FC<FarmCardActionsProps> = ({ farm, ethereum, account }
       </Flex>
       <HarvestAction earnings={earnings} pid={pid} />
       <Flex>
-        <Text bold textTransform="uppercase" color="secondary" fontSize="12px" pr="3px">
+        <Text bold textTransform="uppercase" color="success" fontSize="12px" pr="3px">
           {lpName}
         </Text>
         <Text bold textTransform="uppercase" color="textSubtle" fontSize="12px">
