@@ -3,7 +3,7 @@ import BigNumber from 'bignumber.js'
 import styled from 'styled-components'
 import { provider } from 'web3-core'
 import { getContract } from 'utils/erc20'
-import { Button, Flex, Text } from '@pancakeswap-libs/uikit'
+import { Button, Flex } from '@pancakeswap-libs/uikit'
 import { Farm } from 'state/types'
 import { useFarmFromPid, useFarmFromSymbol, useFarmUser } from 'state/hooks'
 import useI18n from 'hooks/useI18n'
@@ -15,6 +15,31 @@ import HarvestAction from './HarvestAction'
 const Action = styled.div`
   padding-top: 16px;
 `
+
+const Text = styled.div`
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+
+  text-align: center;
+  text-transform: uppercase;
+  color: #52FF00 !important;
+`
+
+const TextChild = styled.div`
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 18px;
+  /* identical to box height, or 150% */
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+`
+
+
+
 export interface FarmWithStakedValue extends Farm {
   apy?: BigNumber
 }
@@ -67,21 +92,21 @@ const CardActions: React.FC<FarmCardActionsProps> = ({ farm, ethereum, account }
   return (
     <Action>
       <Flex>
-        <Text bold textTransform="uppercase" color="success" fontSize="12px" pr="3px">
+        <Text>
           DRAUGR
         </Text>
-        <Text bold textTransform="uppercase" color="textSubtle" fontSize="12px">
+        <TextChild>
           {TranslateString(999, 'Earned')}
-        </Text>
+        </TextChild>
       </Flex>
       <HarvestAction earnings={earnings} pid={pid} />
       <Flex>
-        <Text bold textTransform="uppercase" color="success" fontSize="12px" pr="3px">
+        <Text>
           {lpName}
         </Text>
-        <Text bold textTransform="uppercase" color="textSubtle" fontSize="12px">
+        <TextChild>
           {TranslateString(999, 'Staked')}
-        </Text>
+        </TextChild>
       </Flex>
       {!account ? <UnlockButton mt="8px" fullWidth /> : renderApprovalOrStakeButton()}
     </Action>

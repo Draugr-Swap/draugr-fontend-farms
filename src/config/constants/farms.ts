@@ -199,7 +199,7 @@ const farms: FarmConfig[] = [
     pid: 12,
     risk: 3,
     isTokenOnly: true,
-    lpSymbol: 'TOMB-FTM LP',
+    lpSymbol: 'TOMB',
     lpAddresses: {
       4002: '',
       250: '0x2a651563c9d3af67ae0388a5c8f89b867038089e',
