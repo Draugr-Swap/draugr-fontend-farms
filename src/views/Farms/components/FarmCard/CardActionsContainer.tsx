@@ -24,6 +24,7 @@ const Text = styled.div`
   text-align: center;
   text-transform: uppercase;
   color: #52FF00 !important;
+  padding-left: 2px;
 `
 
 const TextChild = styled.div`
@@ -93,7 +94,7 @@ const CardActions: React.FC<FarmCardActionsProps> = ({ farm, ethereum, account }
     <Action>
       <Flex>
         <Text>
-          DRAUGR
+          DRAUGR 
         </Text>
         <TextChild>
           {TranslateString(999, 'Earned')}
@@ -102,7 +103,7 @@ const CardActions: React.FC<FarmCardActionsProps> = ({ farm, ethereum, account }
       <HarvestAction earnings={earnings} pid={pid} />
       <Flex>
         <Text>
-          {lpName}
+          {lpName} 
         </Text>
         <TextChild>
           {TranslateString(999, 'Staked')}
