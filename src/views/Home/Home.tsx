@@ -65,7 +65,7 @@ const Home: React.FC = () => {
         <Heading size="xl" color="secondary" fontSize="60px" bold>
           {TranslateString(576, 'Draugr Swap')}
         </Heading>
-        <Text bold fontSize="30px">{TranslateString(578, 'Recruit the mightest warriors on FTM!')}</Text>
+        <Text bold fontSize="30px">{TranslateString(578, 'Recruit the mightiest warriors on FTM!')}</Text>
       </Hero>
       <div>
         <Cards>
