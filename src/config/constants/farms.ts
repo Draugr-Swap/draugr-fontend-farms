@@ -13,7 +13,7 @@ const farms: FarmConfig[] = [
     tokenSymbol: 'DRAUGR',
     tokenAddresses: {
       4002: '0x1D34e3fC62bC303aD20e09ef622e2CB9F90d8e8A',
-      250: '0x7D572502Bd99f8830F32F2F4CF0fC8767282A992',
+      250: '0xC48a50A24b0E87fdE6B9a2Dcf427e6564b5F53c9',
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,
@@ -29,7 +29,7 @@ const farms: FarmConfig[] = [
     tokenSymbol: 'DRAUGR',
     tokenAddresses: {
       4002: '0x1D34e3fC62bC303aD20e09ef622e2CB9F90d8e8A',
-      250: '0x7D572502Bd99f8830F32F2F4CF0fC8767282A992',
+      250: '0xC48a50A24b0E87fdE6B9a2Dcf427e6564b5F53c9',
     },
     quoteTokenSymbol: QuoteToken.FTM,
     quoteTokenAdresses: contracts.wftm,
@@ -190,7 +190,7 @@ const farms: FarmConfig[] = [
     tokenSymbol: 'DRAUGR',
     tokenAddresses: {
       4002: '0x1D34e3fC62bC303aD20e09ef622e2CB9F90d8e8A',
-      250: '0x7D572502Bd99f8830F32F2F4CF0fC8767282A992',
+      250: '0xC48a50A24b0E87fdE6B9a2Dcf427e6564b5F53c9',
     },
     quoteTokenSymbol: QuoteToken.USDC,
     quoteTokenAdresses: contracts.usdc,

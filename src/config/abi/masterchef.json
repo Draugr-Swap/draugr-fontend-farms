@@ -17,6 +17,11 @@
         "type": "address"
       },
       {
+        "internalType": "address",
+        "name": "_devWallet",
+        "type": "address"
+      },
+      {
         "internalType": "uint256",
         "name": "_draugrPerBlock",
         "type": "uint256"
