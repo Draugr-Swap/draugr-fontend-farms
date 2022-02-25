@@ -335,23 +335,6 @@ const farms: FarmConfig[] = [
     pid: 20,
     risk: 3,
     isTokenOnly: true,
-    lpSymbol: 'FTM',
-    lpAddresses: {
-      4002: '',
-      250: '0x2b4c76d0dc16be1c31d4c1dc53bf9b45987fc75c',
-    },
-    tokenSymbol: 'FTM',
-    tokenAddresses: {
-      4002: '',
-      250: '0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83',
-    },
-    quoteTokenSymbol: QuoteToken.USDC,
-    quoteTokenAdresses: contracts.usdc,
-  },
-  {
-    pid: 21,
-    risk: 3,
-    isTokenOnly: true,
     lpSymbol: 'USDC',
     lpAddresses: {
       4002: '',
@@ -364,6 +347,23 @@ const farms: FarmConfig[] = [
     },
     quoteTokenSymbol: QuoteToken.FTM,
     quoteTokenAdresses: contracts.wftm,
+  },
+  {
+    pid: 21,
+    risk: 3,
+    isTokenOnly: true,
+    lpSymbol: 'FTM',
+    lpAddresses: {
+      4002: '',
+      250: '0x2b4c76d0dc16be1c31d4c1dc53bf9b45987fc75c',
+    },
+    tokenSymbol: 'FTM',
+    tokenAddresses: {
+      4002: '',
+      250: '0x21be370d5312f44cb42ce377bc9b8a0cef1a4c83',
+    },
+    quoteTokenSymbol: QuoteToken.USDC,
+    quoteTokenAdresses: contracts.usdc,
   },
   {
     pid: 22,
