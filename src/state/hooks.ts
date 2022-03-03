@@ -87,7 +87,9 @@ export const usePriceCakeBusd = (): BigNumber => {
 export const useTotalValue = (): BigNumber => {
   const farms = useFarms();
   const bnbPrice = usePriceBnbBusd();
+  console.log("FTM Price", bnbPrice);
   const cakePrice = usePriceCakeBusd();
+  console.log("Draugr Price", cakePrice);
   let value = new BigNumber(0);
   for (let i = 0; i < farms.length; i++) {
     const farm = farms[i]
@@ -101,7 +103,8 @@ export const useTotalValue = (): BigNumber => {
         val = (farm.lpTotalInQuoteToken);
       }
       value = value.plus(val);
-
+      console.log("Farm : ", farm);
+      console.log(val);
     }
   }
   return value;
