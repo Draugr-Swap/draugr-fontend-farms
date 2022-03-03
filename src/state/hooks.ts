@@ -69,7 +69,7 @@ export const usePoolFromPid = (sousId): Pool => {
 // Prices
 
 export const usePriceBnbBusd = (): BigNumber => {
-  const pid = 2 // BUSD-BNB LP
+  const pid = 6 // BUSD-BNB LP
   const farm = useFarmFromPid(pid)
   return farm.tokenPriceVsQuote ? new BigNumber(farm.tokenPriceVsQuote) : ZERO
 }
@@ -87,9 +87,9 @@ export const usePriceCakeBusd = (): BigNumber => {
 export const useTotalValue = (): BigNumber => {
   const farms = useFarms();
   const bnbPrice = usePriceBnbBusd();
-  console.log("FTM Price", bnbPrice);
+  console.log("FTM Price", bnbPrice.toString());
   const cakePrice = usePriceCakeBusd();
-  console.log("Draugr Price", cakePrice);
+  console.log("Draugr Price", cakePrice.toString());
   let value = new BigNumber(0);
   for (let i = 0; i < farms.length; i++) {
     const farm = farms[i]
@@ -104,7 +104,7 @@ export const useTotalValue = (): BigNumber => {
       }
       value = value.plus(val);
       console.log("Farm : ", farm);
-      console.log(val);
+      console.log(val.toString());
     }
   }
   return value;
