@@ -100,7 +100,7 @@ export const useTotalValue = (): BigNumber => {
       }else{
         val = (farm.lpTotalInQuoteToken);
       }
-      if(farm.lpSymbol == "USDC") {
+      if(farm.lpSymbol === "USDC") {
         val = val.div(new BigNumber(10).pow(12))
       }
       value = value.plus(val);
